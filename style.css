@@ -1,0 +1,18 @@
+h3{
+    font-size: 25px;
+}
+
+.btn-success:hover{
+    background-color: crimson;
+}
+
+canvas{
+    animation-name: everyones_a_potato;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes everyones_a_potato{
+    from{box-shadow: 1px 1px 38px rgb(192, 228, 33);}
+to{box-shadow: 1px 1px 38px rgb(95, 35, 233);}
+}
